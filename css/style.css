@@ -1,3 +1,22 @@
+body {
+    background: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 30px;
+    margin-left: 30px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+p {
+    font-size: 14px;
+}
+
+footer p {
+    font-size: 10px;
+}
+
 .wrapper ul {
     list-style: none;
     float: left;
