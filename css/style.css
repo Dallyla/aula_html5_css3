@@ -27,7 +27,7 @@ footer p {
 
 .wrapper ul li {
     display: inline;
-    margin: 4px 4px 4px 4px;
+    margin: 4px 4px 4px 4px;   
 }
 
 .wrapper ul li a {
@@ -41,3 +41,47 @@ footer p {
     border-radius: 3em;
     
 }
+
+/* @keyframes exemplo {
+/*    0% {background-color: rgb(142, 87, 204);}/*a animação começa vermelho*/
+  /*  50% {background-color: rgb(15, 166, 204);}/*a animação chega na metade em amarela*/
+    /*100% {background-color: rgb(217, 39, 233);}/*a animação termina vermelha novamente*/
+/*}  
+
+nav {
+    /* width: 100px;largura do elemento */
+    /* height: 100px;altura do elemento */
+/*    background-color: red;/*cor do inicial do elemento*/
+  /*  animation-name: exemplo;/*aqui vem o nome da animação*/
+    /*animation-duration: 4s;/*tempo da duração do inicio ao fim*/
+    /*animation-iteration-count:infinite;
+} */
+
+/*@keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+
+  /* The element to apply the animation to */
+/*nav {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+#test {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 2s;
+}
+
+#test:hover {
+    width: 300px;
+  }/*
